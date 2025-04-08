@@ -278,10 +278,10 @@
 :root {
     --bg-color: #f8f9fa;
     --text-color: #333;
-    --accent-color: #8CFF2E;
+    --accent-color: #4CAF50;
     --frame-color: #e0e0e0;
-    --career-color: #8cff2e;
-    --education-color: #8cff2e;
+    --career-color: #4CAF50;
+    --education-color: #4CAF50;
     --text-color: #333;
     --light-bg: #f8f9fa;
     --card-bg: #ffffff;
@@ -1461,7 +1461,7 @@
   }
   
   .cta-button:hover {
-    background-color: #8cff2ee7;
+    background-color: #4CAF50e7;
     box-shadow: 0 0 30px rgba(158, 250, 53, 0.5);
     transform: translateY(-3px);
   }

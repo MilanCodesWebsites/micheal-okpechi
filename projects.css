@@ -947,7 +947,7 @@ main {
   }
   
   .cta-button:hover {
-    background-color: #8cff2ee7;
+    background-color: #4CAF50e7;
     box-shadow: 0 0 30px rgba(158, 250, 53, 0.5);
     transform: translateY(-3px);
   }
@@ -965,12 +965,12 @@ main {
   }
 
   :root{
-    --main-green: #8CFF2E;
+    --main-green: #4CAF50;
     --somehow-black: #333;
     --main-bg: white;
     --background-color: #f9f9f9;
     --card-color: #fff;
     --shadow-color: rgba(0, 0, 0, 0.05);
     --progress-bg: #f0f0f0;
-    --primary-color: #8CFF2E;
+    --primary-color: #4CAF50;
 }

@@ -12,14 +12,14 @@
   }
 
   :root{
-    --main-green: #8CFF2E;
+    --main-green: #4CAF50;
     --somehow-black: #333;
     --main-bg: white;
     --background-color: #f9f9f9;
     --card-color: #fff;
     --shadow-color: rgba(0, 0, 0, 0.05);
     --progress-bg: #f0f0f0;
-    --primary-color: #8CFF2E;
+    --primary-color: #4CAF50;
 }
   
   a {
