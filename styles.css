@@ -303,7 +303,7 @@
   
   .container {
     margin: 0 auto;
-    padding: 2rem 1.5rem;
+    padding: 20px;
   }
   
   /* Availability status */
@@ -1281,9 +1281,6 @@ background-color: #111;
   }
 
   @media (max-width: 480px) {
-    body {
-      padding: 1rem;
-    }
     
     .projects-grid {
       grid-template-columns: 1fr;
