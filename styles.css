@@ -2527,3 +2527,26 @@ h1 {
   margin-top: 1rem;
 }
 
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+  height: 12px; /* height of the horizontal scrollbar */
+}
+
+/* Style the track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: black; /* black track */
+  border-radius: 10px;
+}
+
+/* Style the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: var(--main-green); /* light green thumb */
+  border-radius: 10px;
+}
+
+/* Optional: add a hover effect for the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-green); /* change thumb color on hover */
+}
+
