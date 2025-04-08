@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <meta name="description" content="Micheal Okpechi's Portfolio">
+    <meta name="keywords" content="Micheal Okpechi's Portfolio">
+    <meta name="author" content="Prince">
+    <meta property="og:title" content="Micheal Okpechi's Portfolio">
+    <meta property="og:description" content="Micheal Okpechi's Portfolio">
+    <meta property="og:image" content="https://otiktpyazqotihijbwhm.supabase.co/storage/v1/object/public/images/f14aff96-c27e-47c9-b83e-f3e9686265ec-cover.png">
+    <meta property="og:url" content="https://micheal-okpechi.vercel.app">
+    <meta name="twitter:card" content="Micheal Okpechi's Portfolio">
+    <meta name="twitter:creator" content="@onrooleyy">
+    <meta name="twitter:title" content="Micheal Okpechi's Portfolio">
+    <meta name="twitter:description" content="Micheal Okpechi's Portfolio">
+    <meta name="twitter:image" content="https://otiktpyazqotihijbwhm.supabase.co/storage/v1/object/public/images/f14aff96-c27e-47c9-b83e-f3e9686265ec-cover.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-content">
+            <!-- Logo -->
+            <a href="/" class="logo2">
+              <img src="imgs/logo.png" alt="Logo" class="logo-img">
+              <span class="logo-text">Chibuikem</span>
+            </a>
+    
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+              <a href="projects.html" class="nav-link">Projects</a>
+              <a href="about.html" class="nav-link">About</a>
+            </nav>
+    
+            <!-- Contact Info - Desktop -->
+            <div class="contact-info">
+              <div class="email-container">
+                <span class="email-label">Email:</span>
+                <a href="mailto:michealokpechi@gmail.com" class="email-address">michealokpechi@gmail.com</a>
+              </div>
+              <a href="contact.html" class="contact-button">Contact me</a>
+            </div>
+    
+            <!-- Mobile Menu Button -->
+            <button class="menu-button" aria-label="Open menu">
+              <svg class="menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+    
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <div class="mobile-menu-header">
+            <a href="/" class="logo2">
+              <img src="imgs/logo.png" alt="Webstack Logo" class="logo-img">
+              <span class="logo-text">Chibuikem</span>
+            </a>
+            <button class="close-button" aria-label="Close menu">
+              <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+    
+          <div class="mobile-menu-content">
+            <a href="projects.html" class="mobile-nav-link">Projects</a>
+            <a href="about.html" class="mobile-nav-link">About</a>
+    
+            <div class="mobile-contact-info">
+              <div class="mobile-email-label">Email:</div>
+              <a href="mailto:michealokpechi@gmail.com" class="mobile-email-address">michealokpechi@gmail.com</a>
+              <a href="contact.html" class="mobile-contact-button">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </header>
+    
+      <div class="page-wrapper">
+        <!-- Contact Header -->
+        <div class="header-section fade-in">
+            <h1 class="title">
+                <span class="letter">C</span>
+                <span class="letter">O</span>
+                <span class="letter">N</span>
+                <span class="letter">T</span>
+                <span class="letter">A</span>
+                <span class="letter">C</span>
+                <span class="letter">T</span>
+            </h1>
+            <div class="star rotating">✦</div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="content-section">
+            <!-- Text Section -->
+            <div class="text-section fade-in">
+                <p class="intro-text">Looking to start a project or you need consultation? Feel free to contact me.</p>
+                <div class="contact-details">
+                    <p class="location">Lagos, Nigeria</p>
+                    <p><a href="mailto:michealokpechi@gmail.com" class="highlight">michealokpechi@gmail.com</a></p>
+                    <p><a href="tel:+2347017079122" class="highlight" target="_blank">+234 701 707 9122</a></p>
+                </div>
+            </div>
+            
+            <!-- Form Section -->
+            <div class="form-section fade-in">
+                <form id="contactForm" action="https://submit-form.com/YOUR_FORMSPARK_ID" method="POST">
+                    <input type="hidden" name="_redirect" value="https://micheal-okpechi.vercel.app/confirmation.html" />
+                    
+                    <div class="input-group">
+                        <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <input type="email" id="email" name="email" placeholder="jane@framer.com" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <textarea id="message" name="message" placeholder="Message..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="send-button">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="body5">
+    <!-- FAQ Section -->
+<section class="query-container">
+    <div class="section-indicator">
+        <div class="indicator-dot"></div>
+        <div class="indicator-text">FAQ</div>
+    </div>
+    
+    <h2 class="query-heading">Got Questions?</h2>
+    
+    <ul class="query-list">
+        <li class="query-item">
+            <button class="query-button">
+                <span>
+                    <span class="query-number">01</span>
+                    What is your typical project timeline?
+                </span>
+                <span class="query-icon">+</span>
+            </button>
+            <div class="query-content">
+                <p>Most projects take between 4-8 weeks depending on complexity. We'll provide a detailed timeline during our initial consultation based on your specific requirements.</p>
+            </div>
+        </li>
+        
+        <li class="query-item">
+            <button class="query-button">
+                <span>
+                    <span class="query-number">02</span>
+                    Do you offer ongoing maintenance and support?
+                </span>
+                <span class="query-icon">+</span>
+            </button>
+            <div class="query-content">
+                <p>Yes, we offer various maintenance packages to keep your site secure, updated, and performing optimally. We can discuss options that fit your needs and budget.</p>
+            </div>
+        </li>
+        
+        <li class="query-item">
+            <button class="query-button">
+                <span>
+                    <span class="query-number">03</span>
+                    Can you work with existing brand guidelines?
+                </span>
+                <span class="query-icon">+</span>
+            </button>
+            <div class="query-content">
+                <p>We're experienced in working with established brand guidelines and can seamlessly integrate your existing visual identity into your new digital presence.</p>
+            </div>
+        </li>
+        
+        <li class="query-item">
+            <button class="query-button">
+                <span>
+                    <span class="query-number">04</span>
+                    How do you handle revisions and feedback?
+                </span>
+                <span class="query-icon">+</span>
+            </button>
+            <div class="query-content">
+                <p>Our process includes dedicated revision phases. We use collaborative tools to gather your feedback efficiently and implement changes quickly to keep the project moving forward.</p>
+            </div>
+        </li>
+    </ul>
+  </section>
+</div>
+
+<div class="main-container">
+ 
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <div class="marquee-item">
+          <span class="star-icon">✧</span>
+          <span class="stat-number">18</span>
+          <span class="stat-separator">/</span>
+          <span class="stat-text">satisfied clients</span>
+          <span class="star-icon">✧</span>
+        </div>
+        
+        <div class="marquee-item">
+          <span class="stat-number">14</span>
+          <span class="stat-separator">/</span>
+          <span class="stat-text">projects finished</span>
+          <span class="star-icon">✧</span>
+        </div>
+        
+        <div class="marquee-item">
+          <span class="stat-number">8+</span>
+          <span class="stat-separator">/</span>
+          <span class="stat-text">years of experience</span>
+          <span class="star-icon">✧</span>
+        </div>
+      </div>
+      
+      <!-- Duplicate content for seamless scrolling -->
+      <div class="marquee-content" aria-hidden="true">
+        <div class="marquee-item">
+          <span class="star-icon">✧</span>
+          <span class="stat-number">18</span>
+          <span class="stat-separator">/</span>
+          <span class="stat-text">satisfied clients</span>
+          <span class="star-icon">✧</span>
+        </div>
+        
+        <div class="marquee-item">
+          <span class="stat-number">14</span>
+          <span class="stat-separator">/</span>
+          <span class="stat-text">projects finished</span>
+          <span class="star-icon">✧</span>
+        </div>
+        
+        <div class="marquee-item">
+          <span class="stat-number">8+</span>
+          <span class="stat-separator">/</span>
+          <span class="stat-text">years of experience</span>
+          <span class="star-icon">✧</span>
+        </div>
+      </div>
+    </div>
+  
+    
+      <div class="main-content2">
+        <div class="hero-area">
+          <div class="pattern-background"></div>
+          <div class="hero-text">
+            <h1>
+              Let's create<br />
+              something<br />
+              extraordinary<br />
+              together<span class="accent-text">.</span>
+            </h1>
+            <p>Let's make an impact</p>
+          </div>
+        </div>
+        
+        <div class="profile-area">
+          <div>
+            I'm a mobile developer focused on building smooth, responsive apps using <span class="accent-text">Flutter</span>
+            and <span class="accent-text">Swift</span>. I care about writing clean, maintainable code and creating user experiences
+            that feel intuitive from the first tap. Whether I'm designing cross-platform solutions with Flutter or building for iOS 
+            natively with Swift, I aim to bridge performances with great design, delivering apps that look sharp and run reliably.
+          </div>
+          <div class="contact-section">
+            <p class="contact-label">Contact me:</p>
+            <a href="mailto:michealokpechi@gmail.com" class="email-link">
+              michealokpechi<span class="accent-text">@</span>gmail.com
+            </a>
+          </div>
+          
+          <div class="bio-text">
+            <p>Hit me up if you're looking for a <span class="accent-text">reliable mobile developer</span> who can bring your vision to life.</p>
+          </div>
+          <a href="contact.html" class="cta-button" style="width: fit-content;">
+            <span class="button-text">Become a client</span>
+            <span class="button-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+          </a>
+        </div>
+      </div>
+    <br>
+  
+
+
+    <script src="https://kit.fontawesome.com/b95a562003.js" crossorigin="anonymous"></script>
+      <script src="contact.js"></script>
+</body>
+</html>
