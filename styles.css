@@ -22,8 +22,6 @@
     font-family: "Manrope";
     color: #333;
     background-color: #fff;
-      margin: 0px;
-      padding: 0px;
   }
   
   a {
@@ -274,24 +272,7 @@
     background-color: #555;
   }
   
-  /* Main content */
-  .main-content {
-    padding-top: 8rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    max-width: 1280px;
-    margin: 0 auto;
-  }
   
-  .main-content h1 {
-    font-size: 2.25rem;
-    font-weight: 700;
-  }
-  
-  .main-content p {
-    margin-top: 1rem;
-    font-size: 1.25rem;
-  }
   
   @media (min-width: 1024px) {
     .mobile-menu {
