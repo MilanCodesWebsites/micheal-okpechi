@@ -24,6 +24,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <div class="cursor-outer"></div>
+  <div class="cursor-inner"></div>
   <header class="navbar">
     <div class="navbar-container">
       <div class="navbar-content">
@@ -88,65 +90,33 @@
   
     <div class="background-pattern"></div>
   <br><br><br>
-  <main class="container">
-    <div class="availability fade-in">
-      <span class="status-dot"></span>
-      <span class="status-text">Available for freelance</span>
-    </div>
-
-    <div class="profile-section">
-        <div class="profile-left fade-in">
-            <div class="profile-image-container">
-              <div class="profile-image">
-                <img src="imgs/chibs.jpeg" alt="Chibuikem" class="profile-pic">
-              </div>
-            </div>
-            
-            <!-- <div class="profile-info">
-              <h2 class="profile-name fade-in"></h2>
-              <p class="profile-title fade-in">Mobile Developer</p>
-              
-              <div class="social-links fade-in">
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
-              </div>
-            </div> -->
-          </div>
-      
-      <div class="profile-right">
-        <div class="intro-text">
-            <h1 class="intro-heading">
-                <div class="heading-line">
-                 Hi!, I'm <span>Chibuikem Micheal</span> a <span>Mobile Application Developer</span>, turning your ideas into pixel perfect realities.
-                </div>
-                
-                
-              </h1>
-          
-          <p class="time-period fade-in">(2018 – PRESENT)</p>
-          
-          <p class="description fade-in">
-            I'm dedicated to crafting applications that bring your ideas to life, combining design and development to deliver fast, impactful results.
-          </p>
           
         
-<div class="container2">
-    <a href="#" class="button type--C">
-      <div class="button__line"></div>
-      <div class="button__line"></div>
-      <span class="button__text">See My Work</span>
-      <div class="button__drow1"></div>
-      <div class="button__drow2"></div>
-    </a>
-  </div>
-  
+  <section class="hero-section">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Chibuikem</span></h1>
+            <p>I'm a passionate mobile app developer creating intuitive and engaging experiences for iOS and Android. With expertise in native and cross-platform development, I bring innovative app ideas to life.</p>
+            <div class="container2">
+              <a href="projects.html" class="button type--C">
+                <div class="button__line"></div>
+                <div class="button__line"></div>
+                <span class="button__text">See My Work</span>
+                <div class="button__drow1"></div>
+                <div class="button__drow2"></div>
+              </a>
+            </div>
         </div>
-      </div>
+        <div class="hero-image-container">
+            <div class="hero-image-frame">
+                <div class="hero-image-inner">
+                    <img src="imgs/chibs.jpeg" alt="Chibuikem" class="hero-image">
+                    <div class="hero-image-overlay"></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </main>
-<br>
-  </main>
+</section>    
 
 
   <div class="marquee-container">
@@ -982,7 +952,7 @@
       <div class="hero-area">
         <div class="pattern-background"></div>
         <div class="hero-text">
-          <h1>
+          <h1 style="color: white;">
             Let's create<br />
             something<br />
             extraordinary<br />
@@ -1006,9 +976,6 @@
           </a>
         </div>
         
-        <div class="bio-text">
-          <p>Hit me up if you're looking for a <span class="accent-text">reliable mobile developer</span> who can bring your vision to life.</p>
-        </div>
         <a href="contact.html" class="cta-button" style="width: fit-content;">
           <span class="button-text">Become a client</span>
           <span class="button-arrow"><i class="fa-solid fa-arrow-right"></i></span>
@@ -1021,7 +988,7 @@
 
 
 
-
+<script src="cursor.js"></script>
 <script src="https://kit.fontawesome.com/b95a562003.js" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </body>
