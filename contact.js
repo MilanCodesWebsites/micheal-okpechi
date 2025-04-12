@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contactForm');
     if (form) {
         const formAction = form.getAttribute('action');
-        if (formAction.includes('YOUR_FORMSPARK_ID')) {
+        if (formAction.includes('https://submit-form.com/f2C2kYSUf')) {
             console.warn('Remember to replace YOUR_FORMSPARK_ID with your actual Formspark form ID');
         }
     }
